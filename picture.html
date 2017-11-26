@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title>自宅監視システム</title>
+<link rel="stylesheet" type="text/css" href="css/style.css">
+<script type="text/javascript" src="js/picture.js"></script>
+</head>
+<header>
+<body>
+<a href="top.html"><img src="images/logo.png"class="logo" ></a>
+<nav id="campic">
+<ul>
+<li><a href="camera.html"><img src="images/cam.png"class="overwhite1"></a></li>
+<li><a href="information.html"><img src="images/info.png"class="overwhite2"></a></li>
+<li><a href="picture.html"><img src="images/pic.png"class="overwhite3"></a></li>
+</ul>
+</nav>
+</header>
+	<div class="wrapper">
+		<h1>Picture</h1>
+
+		
+		<img id ="pictImg" src =""  width="500" height="400">
+		<br>
+		<br>
+		<span id="showImg">時頃の映像</span>
+		<p>
+		<datalist id="scale">
+		<option>0</option>
+		<option>50</option>
+		<option>100</option>
+		</datalist>
+		<label>午前0時　<input id="RangePic" type="range" min="0" max="100" step=10" value="50" /> Now</label>
+		<span id="showValueArea"></span> 
+		</p>
+		
+	</div>
+</body>
+</html>

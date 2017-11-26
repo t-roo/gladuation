@@ -1,0 +1,195 @@
+/** セレクタ **/
+@import url(http://fonts.googleapis.com/css?family=Dosis);
+html{
+	background:#000;
+	font-family: "Dosis";
+    	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	cursor: url(../images/default.png),pointer;
+}
+
+body{
+	background:#fff;
+    	height: 200%;
+	width: 94%;
+	margin: 3%;
+	border-style:ridge;
+	border-radius:2%;
+}
+header {
+	background-color:#ffd700;
+	border-radius: 25px 25px 0 0;
+}
+.logo {
+	width:25%; 
+	height:10%;
+	margin:0;
+	padding:0;
+	z-index:1;
+}
+
+.logo:hover{
+	cursor: url(../images/active.png),pointer;
+	opacity:0.6;
+}
+
+nav#camnav{
+	border-bottom:solid;
+	border-color: #ff0000;
+	height:2.5%;
+	z-index:1;
+}
+nav#caminfo{
+	border-bottom:solid;
+	border-color: #00f;
+	height:2.5%;
+	z-index:1;
+}
+nav#campic{
+	border-bottom:solid;
+	border-color: #ff0;
+	height:2.5%;
+	z-index:1;
+}
+
+li{
+	display:inline;
+	padding-left:0.1%;
+	padding-right:0.1%;
+	margin:0;
+	padding:0;
+}
+
+ul{	
+}
+
+img.overwhite1{
+	width:7%;
+	height:7%;
+}
+
+img.overwhite2{
+	width:7%;
+	height:7%;
+}
+
+img.overwhite3{
+	width:7%;
+	height:8%;
+}
+ul li a:hover img{
+	cursor: url(../images/active.png),pointer;
+	margin: 0px 0px -6px 0px;
+	border: 3px solid #fff;
+	opacity:0.6;
+}
+h1 {
+	margin: 2% 0 ;
+	padding:0;
+	font-size:200%;
+}
+
+p {	
+}
+
+a:link {
+  color:#fff;
+}
+
+a:visited {
+  color:#fff;
+}
+
+a:hover {
+  color:#fff;
+}
+
+a:active {
+  color:#fff;
+}
+/** 共通 **/
+.header{
+}
+
+.wrapper{
+ margin-left:3%;
+}
+
+/** cameraページ **/
+
+.cam1 {
+	float:left;
+	margin-right:3%;
+}
+
+.anothercam{
+	float:left;
+	
+}
+button{
+	cursor: url(../images/active.png),pointer;
+}
+button#rev_btn{
+	margin:3% 3% 3% 0;
+	color: #000;
+	background-color: #ffd700;;
+	width:20%;
+	font-size:130%;
+	box-shadow: 2px 2px 3px 1px #666;
+
+}
+
+button#fwd_btn{
+	margin:3%;
+	color: #000;
+	background-color: #ffd700;;
+	width:20%;
+	font-size:130%;
+	box-shadow: 2px 2px 3px 1px #666;
+
+}
+
+/* pictureページ  */
+
+label{
+  cursor: url(../images/default.png),pointer;
+}
+
+input[type="range"] {
+  -webkit-appearance:none;
+  outline: none;
+  width:50%; 
+  background: #eee;
+  box-shadow: 0 0 10px #666;
+  border-radius: 50px;
+  cursor: url(../images/active.png),pointer;
+}
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  background: #333;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+input[type="range"]::-webkit-slider-thumb:hover {
+  background: #999;
+  
+}
+input[type="range"]::-webkit-slider-thumb:active {
+  background: #ffd700;
+  transform: scale(2.0); 
+}
+label,span{
+	font-size:150%;
+}
+
+/* information  */
+
+iframe{
+	width:900px; 
+	height:400px;
+	border:none;
+}
+
